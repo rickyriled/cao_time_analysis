@@ -69,7 +69,7 @@ def histo_plotter(array1, array2, array3):
     
     plt.hist(array1.flatten(), alpha=0.5, label=lab1)
     plt.hist(array2.flatten(), alpha=0.5, label=lab2)
-    plt.hist(array3.flatten(), alpha=0.5, label=lab2)
+    plt.hist(array3.flatten(), alpha=0.5, label=lab3)
     plt.legend(loc='upper right')
     plt.savefig("plots/{}.png".format("differences"))
     plt.close()
